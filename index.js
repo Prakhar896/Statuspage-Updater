@@ -6,7 +6,7 @@ const token = process.env.DISCORD_TOKEN
 const PREFIX = process.env.BOT_PREFIX
 
 bot.on('ready', () => {
-    console.log('Instatus Updater Bot is online!')
+    console.log('StatusPage Updater Bot is online!')
 })
 
 bot.on('message', msg => {
