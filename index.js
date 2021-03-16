@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 require('dotenv').config();
+const { Statuspage } = require('statuspage.io')
 
 const token = process.env.DISCORD_TOKEN
 const PREFIX = process.env.BOT_PREFIX
