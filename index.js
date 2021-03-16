@@ -1,10 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 require('dotenv').config();
-const { InstatusClient } = require('instatus.ts')
-const client = new InstatusClient({
-    key: `${process.env.INSTATUS_API_KEY}`
-})
 
 const token = process.env.DISCORD_TOKEN
 const PREFIX = process.env.BOT_PREFIX
